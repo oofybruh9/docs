@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 ---
 
-# 👋 welome to the docs page!
+# 👋 welome to the docs!
 here you’ll find all my project documentation, neatly organized:
 
 - [Cameleo](cameleo/)

@@ -1,0 +1,28 @@
+site_name: oofybruh9 Docs
+site_url: https://oofybruh9.is-a.dev/docs
+docs_dir: src
+theme:
+  name: bootstrap386
+
+nav:
+  - Home: index.md
+  - Cameleo:
+      - Overview: cameleo/index.md
+      - Installation: cameleo/install.md
+      - Features: cameleo/features.md
+  - NeonDeck:
+      - Overview: neondeck/index.md
+      - Setup: neondeck/setup.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - codehilite
+  - admonition
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/oofybruh9

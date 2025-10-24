@@ -1,34 +1,29 @@
-name: Deploy Docs
+name: Deploy MkDocs site
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          ruby-version: '3.1'
-          bundler-cache: true
+          python-version: 3.x
 
-      - name: Install dependencies
+      - name: Install MkDocs + theme
         run: |
-          bundle install
+          pip install mkdocs mkdocs-bootstrap386
 
-      - name: Build site
-        run: bundle exec jekyll build --baseurl "/docs"
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+      - name: Build and deploy
+        run: |
+          mkdocs gh-deploy --force
