@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NeonDeck Overview
-nav_order: 1
+nav_order: 2
 ---
 # 👾 NeonDeck Launcher
 

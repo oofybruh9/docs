@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cameleo Overview
-nav_order: 1
+nav_order: 2
 ---
 
 # 🦎 Cameleo Browser
