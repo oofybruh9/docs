@@ -1,6 +1,7 @@
 ---
 layout: default
 title: NeonDeck Overview
+parent: Navigation
 ---
 # 👾 NeonDeck Launcher
 

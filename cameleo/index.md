@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cameleo Overview
+parent: Navigation
 ---
 
 # 🦎 Cameleo Browser
