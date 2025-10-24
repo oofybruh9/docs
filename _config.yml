@@ -1,0 +1,32 @@
+title: oofybruh9's docs
+description: documentation for my projects 🧠
+theme: just-the-docs
+
+url: "https://oofybruh9.is-a.dev"
+baseurl: "/docs"
+
+search_enabled: true
+
+aux_links:
+  "GitHub Profile":
+    - "//github.com/oofybruh9"
+
+# Sidebar nav
+just_the_docs:
+  navigation:
+    - title: Home
+      url: /
+    - title: Cameleo
+      children:
+        - title: Overview
+          url: /cameleo/
+        - title: Installation
+          url: /cameleo/install/
+        - title: Features
+          url: /cameleo/features/
+    - title: NeonDeck
+      children:
+        - title: Overview
+          url: /neondeck/
+        - title: Setup
+          url: /neondeck/setup/
