@@ -11,4 +11,4 @@ here you’ll find all my project documentation, neatly organized:
 - [NeonDeck](neondeck/)
 
 ---
-made with ❤️ using [Just the Docs](https://just-the-docs.github.io/just-the-docs/).
+made with ❤️ by oofybruh9 using [Just the Docs](https://just-the-docs.github.io/just-the-docs/).
